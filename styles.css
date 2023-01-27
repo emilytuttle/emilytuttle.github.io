@@ -1,0 +1,348 @@
+
+
+
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 1024px) {
+    
+}
+
+
+:root {
+    --text-color1: rgb(48, 55, 69);
+}
+
+* {
+    overflow-x: hidden;
+    padding: 0;
+    font-family: sans-serif;
+    margin: 0
+}
+
+/* HEADER */
+header {
+    position: sticky;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(48, 55, 69);
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    overflow: hidden;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+ol {
+    display: flex;
+}
+li {
+    margin: 30px;
+    font-size: 20px
+}
+
+.header-name {
+    font-size: 32px;
+    margin-left: 135px;
+    font-weight: bold;
+}
+
+/* CASE STUDIES */
+
+
+/* Hero */
+
+
+.hero {
+    width: 100%;
+    height: 32vh;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+
+
+}
+
+.hero-1 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url(pics/italianHero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hero-2 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url(pics/car.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 33%
+}
+.hero-3 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url(pics/volunteer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 33%
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 39px
+}
+
+/* BODY */
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+h2 {
+    color: var(--text-color1)
+}
+
+.box {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.targets {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%
+}
+
+p {
+    margin-top: 15px;
+    line-height: 2;
+    width: 80%;
+}
+
+.heading {
+    margin-top: 60px;
+}
+
+.role-box {
+    margin-bottom: -50px
+}
+
+.challenges-box {
+    margin-top: 70px;
+}
+
+.arisna {
+    margin-top: 30px
+}
+
+.sketch {
+    width: 350px;
+}
+
+.wireframe {
+    width: 40%;
+}
+
+.wireframes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.bulleted {
+    font-size: 16px;
+    
+}
+
+h4 {
+    margin-top: 40px;
+}
+
+.word-by-pic {
+    width: 40%
+}
+
+.userFindings {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+/* HOME */
+
+.splash-name {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.case-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 100px
+}
+.splashCase {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 28px
+}
+
+.splashCase a {
+    text-decoration: none;
+    color: white
+}
+.caseOne {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url(pics/italianHero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caseTwo {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url(pics/car.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 33%
+}
+.caseThree {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url(pics/volunteer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 33%
+}
+
+.image {
+    width: 50%
+}
+
+.hifis {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hifis .image {
+    width: 10%;
+}
+
+.prototype {
+    margin-top: 50px;
+}
+
+
+.conclusion-box {
+    margin-bottom: 80px
+}
+
+
+
+@media (max-width: 600px) {
+    p {
+        font-size: 15px
+    }
+    h1 {
+        font-size: 27px
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .targets{
+        flex-direction: column
+    }
+    .header-name {
+        margin-left: 10px;
+        font-size: 20px;
+        width: 50%
+    }
+
+    .wireframes {
+        flex-direction: column-reverse;
+    }
+
+    li {
+        font-size: 15px
+    }
+
+    .word-by-pic, .wireframe {
+        width: 80%;
+    }
+
+    .case-box {
+        flex-direction: column ;
+    }
+
+    .userFindings {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .hifis {
+        flex-direction: column;
+        width: 100%
+    }
+
+    .hifis .image {
+        width: 50%
+    }
+
+    .image {
+        width: 80%
+    }
+
+
+}
+
+
+
+
+
+
