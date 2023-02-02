@@ -20,6 +20,10 @@
     margin: 0
 }
 
+a {
+    text-decoration: none;
+}
+
 /* HEADER */
 header {
     position: sticky;
@@ -50,7 +54,8 @@ li {
 .header-name {
     font-size: 32px;
     margin-left: 135px;
-    font-weight: bold;
+    font-family: 'Anton';
+    letter-spacing: 2px;
 }
 
 /* CASE STUDIES */
@@ -109,6 +114,23 @@ li {
 h1 {
     font-weight: bolder;
     font-size: 39px
+}
+
+.back-button {
+    width: 125px;
+    height: 35px;
+    background-color: var(--text-color1);
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 15px;
+    position: absolute;
+    left: 20px;
+    
+
 }
 
 /* BODY */
@@ -221,7 +243,8 @@ h4 {
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 28px
+    font-size: 28px;
+    text-align: center;
 }
 
 .splashCase a {
@@ -267,7 +290,7 @@ h4 {
     justify-content: space-evenly;
 }
 .hifis .image {
-    width: 10%;
+    width: 20%;
 }
 
 .prototype {
@@ -279,6 +302,57 @@ h4 {
     margin-bottom: 80px
 }
 
+
+/* DEVELOPMENT */
+
+.dev-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+
+}
+
+.devProject {
+    width: 80%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+    padding: 25px;
+    justify-content: space-around;
+}
+
+.projPic {
+    width: 40%;
+    height: 100%;
+}
+
+.devImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.projDescrip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    flex-direction: column;
+}
+
+.devProject a  {
+    color: black;
+    text-decoration: underline;
+}
 
 
 @media (max-width: 600px) {
